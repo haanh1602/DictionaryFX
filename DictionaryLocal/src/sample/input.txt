@@ -1,0 +1,7 @@
+an	một
+dog	Chó
+cat	mèo
+hello	Xin chào
+name	Tên
+bye	Tạm biệt
+test	Thử

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField fx:id="word_target" layoutX="34.0" layoutY="84.0" prefHeight="58.0" prefWidth="340.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Label layoutX="386.0" layoutY="95.0" text="Anh - Việt">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="504.0" layoutY="87.0" mnemonicParsing="false" onAction="#Translate" prefHeight="51.0" prefWidth="184.0" text="Dịch">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+      <Button fx:id="Add" layoutX="398.0" layoutY="180.0" mnemonicParsing="false" onAction="#Add" prefHeight="39.0" prefWidth="82.0" text="Thêm" textFill="#2bc510">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Delete" layoutX="503.0" layoutY="179.0" mnemonicParsing="false" onAction="#Delete" prefHeight="27.0" prefWidth="82.0" text="Xóa" textFill="#a21e1e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Repair" layoutX="607.0" layoutY="179.0" mnemonicParsing="false" onAction="#Edit" prefHeight="27.0" prefWidth="82.0" text="Sửa" textFill="#241392">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="word_explain_input" disable="true" layoutX="34.0" layoutY="170.0" onAction="#Add" prefHeight="58.0" prefWidth="340.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+        <Label fx:id="word_explain" layoutX="34.0" layoutY="169.0" prefHeight="58.0" prefWidth="340.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="accept" layoutX="136.0" layoutY="243.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="137.0" text="Xác nhận" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
