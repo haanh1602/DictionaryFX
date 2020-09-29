@@ -5,5 +5,5 @@ public class Dictionary {
     int numOfWord = 0;
     DictionaryCommandline dictionaryCommandline = new DictionaryCommandline(this);
     DictionaryManagement dictionaryManagement = new DictionaryManagement(this);
-
+    //Controller controller = new Controller(this);
 }

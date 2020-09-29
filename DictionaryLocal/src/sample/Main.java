@@ -1,9 +1,14 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.util.Scanner;
@@ -11,7 +16,7 @@ import java.util.Scanner;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
             primaryStage.setTitle("Dictionary");
@@ -21,7 +26,6 @@ public class Main extends Application {
             System.out.println(e.getMessage());
         }
     }
-
 
     public static void main(String[] args) {
         /*Dictionary a = new Dictionary();
@@ -40,6 +44,9 @@ public class Main extends Application {
                 break;
             }
         }*/
+        //Dictionary dictionary = new Dictionary();
+        //dictionary.dictionaryManagement.insertFromFile();
+
         launch(args);
     }
 }

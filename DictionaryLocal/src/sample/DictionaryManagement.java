@@ -65,20 +65,21 @@ public class DictionaryManagement {
         }
     }
 
-    public void dictionaryLookup() {
-        String lookup = sc.nextLine();
-        if (lookup.equals("Look up")) {
+    public String dictionaryLookup(String wordLookup) {
+        //String lookup = sc.nextLine();
+        /*if (lookup.equals("Look up")) {
             System.out.print("Type in your word: ");
-            String wordLookup = sc.nextLine();
+            String wordLookup = sc.nextLine();*/
             for (int i = 0; i < dictionary.numOfWord; i++) {
                 if (wordLookup.equals(dictionary.words[i].getWord_target())) {
-                    System.out.println("The word you looking for: "
-                            + dictionary.words[i].getWord_target() + " - " + dictionary.words[i].getWord_explain());
-                    return;
+                    /*System.out.println("The word you looking for: "
+                            + dictionary.words[i].getWord_target() + " - " + dictionary.words[i].getWord_explain());*/
+                    return dictionary.words[i].getWord_explain();
                 }
             }
-            System.out.println("Not found!");
-        }
+            //System.out.println("Not found!");
+            return "Not found!";
+        //}
     }
 
     public void deleteWord() {

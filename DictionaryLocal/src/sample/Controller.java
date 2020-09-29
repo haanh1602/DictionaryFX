@@ -3,13 +3,20 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-public class Controller {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class Controller implements Initializable {
+
+    Dictionary dictionary = new Dictionary();
+
     @FXML
     private TextField word_target;
     @FXML
@@ -27,7 +34,7 @@ public class Controller {
         //word_explain.setText(word_target.getText());
         //alert.setContentText(word_target.getText());
         //alert.show();
-        word_explain.setText("  " + word_target.getText());
+        word_explain.setText("  " + dictionary.dictionaryManagement.dictionaryLookup(word_target.getText()));
         word_explain_input.setVisible(false);
         word_explain.setVisible(true);
     }
@@ -45,5 +52,11 @@ public class Controller {
 
     public void Edit (ActionEvent event) {
 
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        dictionary.dictionaryManagement.insertFromFile();
+        
     }
 }

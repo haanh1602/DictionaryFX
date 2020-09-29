@@ -43,6 +43,6 @@ public class DictionaryCommandline {
     public void dictionaryAdvance() {
         dictionary.dictionaryManagement.insertFromFile();
         showAllWords();
-        dictionary.dictionaryManagement.dictionaryLookup();
+        dictionary.dictionaryManagement.dictionaryLookup("");
     }
 }
