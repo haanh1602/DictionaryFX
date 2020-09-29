@@ -66,27 +66,18 @@ public class DictionaryManagement {
     }
 
     public String dictionaryLookup(String wordLookup) {
-        //String lookup = sc.nextLine();
-        /*if (lookup.equals("Look up")) {
-            System.out.print("Type in your word: ");
-            String wordLookup = sc.nextLine();*/
-            for (int i = 0; i < dictionary.numOfWord; i++) {
-                if (wordLookup.equals(dictionary.words[i].getWord_target())) {
-                    /*System.out.println("The word you looking for: "
-                            + dictionary.words[i].getWord_target() + " - " + dictionary.words[i].getWord_explain());*/
-                    return dictionary.words[i].getWord_explain();
-                }
+        wordLookup = wordLookup.toLowerCase().trim();
+        for (int i = 0; i < dictionary.numOfWord; i++) {
+            if (wordLookup.equals(dictionary.words[i].getWord_target())) {
+                return dictionary.words[i].getWord_explain();
             }
-            //System.out.println("Not found!");
-            return "Not found!";
-        //}
+        }
+        return "Not found!";
     }
 
-    public void deleteWord() {
-        System.out.print("Delete word: ");
-        String wordDeleted = sc.nextLine();
+    public void deleteWord(String word) {
         for(int i = 0; i < dictionary.numOfWord; i++) {
-            if(wordDeleted.equals(dictionary.words[i].getWord_target())) {
+            if(word.equals(dictionary.words[i].getWord_target())) {
                 for(int j = i; j < dictionary.numOfWord - 1; j++) {
                     dictionary.words[j] = dictionary.words[j + 1];
                 }
@@ -96,7 +87,7 @@ public class DictionaryManagement {
                 return;
             }
         }
-        System.out.println("Cannot found: " + wordDeleted);
+        System.out.println("Cannot found: " + word);
     }
 
     public void editWord() {
@@ -123,7 +114,7 @@ public class DictionaryManagement {
                 insertFromCommandline();
                 break;
             case "2":
-                deleteWord();
+                deleteWord(" ");
                 break;
             case "3":
                 editWord();
