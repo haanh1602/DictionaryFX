@@ -27,13 +27,6 @@ public class Controller implements Initializable {
     private Button accept;
 
     public void Translate (ActionEvent event) {
-        //word_explain.setText(word_target.getText());
-        //Alert.AlertType alertAlertType;
-        //Alert alert = new Alert(AlertType.INFORMATION);
-        //alert.setContentText(word_explain.getText());
-        //word_explain.setText(word_target.getText());
-        //alert.setContentText(word_target.getText());
-        //alert.show();
         word_explain.setText("  " + dictionary.dictionaryManagement.dictionaryLookup(word_target.getText()));
         word_explain_input.setVisible(false);
         word_explain.setVisible(true);

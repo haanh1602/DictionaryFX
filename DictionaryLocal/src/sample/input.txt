@@ -3,5 +3,5 @@ dog	Chó
 cat	mèo
 hello	Xin chào
 name	Tên
-bye	Tạm biệt
+byee	Tạm biệt e
 test	Thử

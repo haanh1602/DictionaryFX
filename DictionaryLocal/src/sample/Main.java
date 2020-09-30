@@ -28,7 +28,7 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        /*Dictionary a = new Dictionary();
+        Dictionary a = new Dictionary();
         Scanner sc = new Scanner(System.in);
         //a.dictionaryManagement.insertFromCommandline();
         a.dictionaryManagement.insertFromFile();
@@ -43,10 +43,10 @@ public class Main extends Application {
                 a.dictionaryCommandline.showAllWords();
                 break;
             }
-        }*/
-        //Dictionary dictionary = new Dictionary();
-        //dictionary.dictionaryManagement.insertFromFile();
+        }
+        Dictionary dictionary = new Dictionary();
+        dictionary.dictionaryManagement.insertFromFile();
 
-        launch(args);
+       // launch(args);
     }
 }
