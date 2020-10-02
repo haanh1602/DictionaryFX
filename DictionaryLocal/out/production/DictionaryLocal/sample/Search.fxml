@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Search">
+    <children>
+      <TextField fx:id="word_target" alignment="TOP_LEFT" layoutX="34.0" layoutY="83.0" prefHeight="58.0" prefWidth="340.0" AnchorPane.bottomAnchor="195.6">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+        <Label layoutX="386.0" layoutY="95.0" text="Anh - Việt">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="503.0" layoutY="87.0" mnemonicParsing="false" onAction="#Translate" prefHeight="51.0" prefWidth="184.0" text="Dịch">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Label fx:id="word_explain" layoutX="34.0" layoutY="169.0" prefHeight="58.0" prefWidth="340.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="back" layoutX="283.0" layoutY="271.0" mnemonicParsing="false" onAction="#BackToMain" prefHeight="39.0" prefWidth="137.0" text="Quay lại">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
