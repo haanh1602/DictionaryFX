@@ -26,12 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Add Trie class">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_8_40_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Controller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Search.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,13 +68,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/controlsfx-8.40.14.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Controller" />
+      <module name="DictionaryLocal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="DictionaryLocal" />
@@ -90,9 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.MainController" />
+      <module name="DictionaryLocal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -120,7 +153,17 @@
       <workItem from="1601434426390" duration="4013000" />
       <workItem from="1601446710683" duration="122000" />
       <workItem from="1601446880767" duration="28000" />
-      <workItem from="1601446930986" duration="986000" />
+      <workItem from="1601446930986" duration="3348000" />
+      <workItem from="1601454569962" duration="14000" />
+      <workItem from="1601454601746" duration="8817000" />
+      <workItem from="1601484631570" duration="1741000" />
+      <workItem from="1601486656402" duration="106000" />
+      <workItem from="1601517507280" duration="1042000" />
+      <workItem from="1601525683652" duration="110000" />
+      <workItem from="1601536058966" duration="1878000" />
+      <workItem from="1601540261470" duration="17897000" />
+      <workItem from="1601597229477" duration="65000" />
+      <workItem from="1601597318949" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -176,38 +219,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1601289929257" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601460316670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601460316670" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601289880136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289880136" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601364440375">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601572471534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601364440375" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601572471534" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601536205471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601536205471" />
     <state x="592" y="298" key="DetectedRootsChooserDialog" timestamp="1601290646868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="298" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1601290646868" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601290905714">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601597445768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601290905714" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601447541013">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601597445768" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601576964834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601447541013" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601447541012">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601576964834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601447541012" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601447541012">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601576964834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601447541012" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601447541012">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601576964834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601447541012" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601306699607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,14 +275,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601306699607" />
-    <state x="493" y="133" key="RollbackChangesDialog" timestamp="1601289339364">
+    <state x="493" y="133" key="RollbackChangesDialog" timestamp="1601484702080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289339364" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1601290916680">
+    <state x="493" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601484702080" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1601597448850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601290916680" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601597448850" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601395979444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,5 +299,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601395946029" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601549833513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601549833513" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601546703143">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601546703143" />
   </component>
 </project>
