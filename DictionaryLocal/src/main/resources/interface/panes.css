@@ -1,0 +1,28 @@
+.header_pane {
+    -fx-background-color: #2a3039;
+}
+
+.button_nav {
+    -fx-background-radius: 0px;
+    -fx-background-color: #2a3039;
+    -fx-border-width: 0px;
+}
+
+.button_nav:focused {
+    -fx-background-radius: 0px;
+    -fx-background-color: #424a53;
+    -fx-pref-height: 73px;
+}
+
+.input_search:focused {
+    -fx-border-color: #00d639;
+    -fx-background-radius: 0px;
+}
+
+#white_area {
+    -fx-background-color: whitesmoke;
+}
+
+.background_color_pane_focused {
+    -fx-background-color: #424a53;
+}

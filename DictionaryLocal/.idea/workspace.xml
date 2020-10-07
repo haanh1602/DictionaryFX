@@ -25,18 +25,51 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Add Trie class">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_8_40_14.xml" afterDir="false" />
+    <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Graphics update">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_jlayer_1_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAPI/TestAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestInterface/TestInterface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uet-dictionary-master/DictionaryFX.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/controlsfx_8_40_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/META-INF/DictionaryLocal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/DictionaryCommandline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/DictionaryManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/MainController.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Search.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Trie$TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/controlsfx-8.40.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sample/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sprites/dog.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryLocal/sprites/searchIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DictionaryCommandline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DictionaryManagement.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Search.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainController.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Search.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controlsfx-8.40.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/dog.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/searchIcon.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +79,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -63,24 +97,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/controlsfx-8.40.14.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="translate" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\java\app\helper" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\java\services" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\java" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\sprites\icons" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\translate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.Controller" />
       <module name="DictionaryLocal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="com.gtranslate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="DictionaryLocal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DictionaryLocal" />
@@ -108,12 +177,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.MainController" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="DictionaryLocal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="com.gtranslate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Test" />
+      <module name="DictionaryLocal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gtranslate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,10 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Controller" />
-        <item itemvalue="Application.MainController" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +246,38 @@
       <workItem from="1601536058966" duration="1878000" />
       <workItem from="1601540261470" duration="17897000" />
       <workItem from="1601597229477" duration="65000" />
-      <workItem from="1601597318949" duration="131000" />
+      <workItem from="1601597318949" duration="1256000" />
+      <workItem from="1601598591804" duration="4295000" />
+      <workItem from="1601612084266" duration="4000" />
+      <workItem from="1601612105353" duration="895000" />
+      <workItem from="1601615800394" duration="1056000" />
+      <workItem from="1601628833748" duration="466000" />
+      <workItem from="1601629329450" duration="3804000" />
+      <workItem from="1601639262030" duration="627000" />
+      <workItem from="1601711184487" duration="1510000" />
+      <workItem from="1601735188158" duration="1429000" />
+      <workItem from="1601740206729" duration="618000" />
+      <workItem from="1601741686522" duration="1484000" />
+      <workItem from="1601743226384" duration="213000" />
+      <workItem from="1601743464508" duration="170000" />
+      <workItem from="1601743920388" duration="1031000" />
+      <workItem from="1601799608080" duration="5683000" />
+      <workItem from="1601826425854" duration="632000" />
+      <workItem from="1601871757158" duration="1016000" />
+      <workItem from="1601876999502" duration="3285000" />
+      <workItem from="1601890869478" duration="2376000" />
+      <workItem from="1601913028007" duration="681000" />
+      <workItem from="1601916880952" duration="2431000" />
+      <workItem from="1601952297788" duration="6848000" />
+      <workItem from="1601978612956" duration="5228000" />
+      <workItem from="1601992993643" duration="74000" />
+      <workItem from="1601993084114" duration="2094000" />
+      <workItem from="1602004059143" duration="1555000" />
+      <workItem from="1602005653607" duration="862000" />
+      <workItem from="1602006565314" duration="1069000" />
+      <workItem from="1602033998347" duration="8107000" />
+      <workItem from="1602061406540" duration="47000" />
+      <workItem from="1602063677131" duration="3170000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -179,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601395904414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Graphics update">
+      <created>1601597714057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601597714057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +333,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Connect graphics and process&quot;" />
     <MESSAGE value="Add Trie class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Trie class" />
+    <MESSAGE value="Graphics update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graphics update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1601289929257">
@@ -227,62 +349,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289880136" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601572471534">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601742251152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601572471534" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601536205471">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601742251152" />
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601994729244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601536205471" />
-    <state x="592" y="298" key="DetectedRootsChooserDialog" timestamp="1601290646868">
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1601994729244" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601913080266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="298" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1601290646868" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601597445768">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601913080266" />
+    <state x="592" y="298" key="DetectedRootsChooserDialog" timestamp="1601737083519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601597445768" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601576964834">
+    <state x="592" y="298" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1601737083519" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601993216641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601576964834">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602066794075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601576964834">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602066794075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602066794075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601576964834">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602066794075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602066794075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601576964834" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601306699607">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602066794075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602066794075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601306699607" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601306699607">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602066794075" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601807875702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601306699607" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601306699607">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601807875702" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601807875701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601306699607" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601306699607">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601807875701" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601807875701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601306699607" />
-    <state x="493" y="133" key="RollbackChangesDialog" timestamp="1601484702080">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601807875701" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601807875702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601484702080" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1601597448850">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601807875702" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601994230965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601597448850" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601994230965" />
+    <state x="493" y="133" key="RollbackChangesDialog" timestamp="1601742036016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601742036016" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1602043736284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602043736284" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601395979444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,17 +425,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289670712" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601742019835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1601742019835" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601395946029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601395946029" />
+    <state x="209" y="73" key="new project wizard" timestamp="1601872276081">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1601872276081" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1601549833513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601549833513" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601546703143">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602066293545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601546703143" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602066293545" />
   </component>
 </project>

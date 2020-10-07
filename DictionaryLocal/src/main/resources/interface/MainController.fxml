@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.MainController">
+   <children>
+      <AnchorPane prefHeight="73.0" prefWidth="720.0" style="-fx-background-color: #2a3039;" styleClass="header_pane" stylesheets="@panes.css">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/dog.gif" />
+               </image>
+               <effect>
+                  <Bloom />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DISAPPEAR" />
+               </cursor>
+            </ImageView>
+            <Button fx:id="searchBt" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="button_nav">
+                     <image>
+                        <Image url="@../data/icons/SearchIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+            <Button fx:id="historyBt" layoutX="120.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../data/icons/HistoryIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+            <Button fx:id="bookmarkBt" layoutX="240.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../data/icons/BookMarkIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+            <Button fx:id="settingBt" layoutX="360.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../data/icons/SettingIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="currentPane" layoutY="72.0" prefHeight="407.0" prefWidth="720.0" />
+   </children>
+</AnchorPane>

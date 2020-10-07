@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="720.0" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SearchController">
+    <children>
+      <TextField fx:id="word_target" alignment="TOP_LEFT" layoutX="34.0" layoutY="84.0" prefHeight="58.0" prefWidth="340.0" styleClass="input_search">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+        <Button layoutX="460.0" layoutY="87.0" mnemonicParsing="false" onAction="#Translate" prefHeight="51.0" prefWidth="184.0" text="Dịch">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Label fx:id="word_explain" layoutX="34.0" layoutY="169.0" prefHeight="58.0" prefWidth="340.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="back" layoutX="552.0" layoutY="277.0" mnemonicParsing="false" onAction="#BackToMain" prefHeight="39.0" prefWidth="137.0" text="Quay lại">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
