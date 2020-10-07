@@ -37,6 +37,8 @@ public class MainController implements Initializable{
 
     private SearchController searchController;
     private HistoryController historyController;
+    private BookmarkController bookmarkController;
+    private SettingController settingController;
 
     public void setPane(AnchorPane anchorPane) {
         this.currentPane.getChildren().setAll(anchorPane);
@@ -51,6 +53,7 @@ public class MainController implements Initializable{
 
     public void showSearchPane() {
         this.setPane(searchPane);
+        searchBt.setStyle("-fx-background-color: #424a53");
     }
 
     @FXML
@@ -68,11 +71,16 @@ public class MainController implements Initializable{
             this.resetStyleBtNav();
             historyBt.setStyle("-fx-background-color: #424a53");
         }
-
-        //Scene newScene = new Scene(mainScene);
-        /*stage.setScene(new Scene(currentScene));
-        stage.setTitle("Search");
-        stage.show();*/
+        else if (event.getSource() == bookmarkBt) {
+            this.setPane(bookmarkPane);
+            this.resetStyleBtNav();
+            bookmarkBt.setStyle("-fx-background-color: #424a53");
+        }
+        else if (event.getSource() == settingBt) {
+            this.setPane(settingPane);
+            this.resetStyleBtNav();
+            settingBt.setStyle("-fx-background-color: #424a53");
+        }
     }
 
     @Override
@@ -84,38 +92,8 @@ public class MainController implements Initializable{
             searchController = fxmlLoader.getController();
             //searchPaneController.initData(this);
         } catch (IOException e) {
-            System.out.println("Error load search_pane.");
+            System.out.println("Error: Cannot load searchPane!");
         }
-
-        /*try {
-            FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("../../../graphical/panes/add_pane.fxml"));
-            anchorAddPane = fxmlLoader.load();
-            addPaneController = fxmlLoader.getController();
-            addPaneController.initData(this);
-        } catch (IOException e) {
-            System.out.println("Error load add_pane pane.");
-        }
-
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("../../../graphical/panes/edit_pane.fxml"));
-            anchorEditPane = fxmlLoader.load();
-            editPaneController = fxmlLoader.getController();
-            editPaneController.initData(this);
-        } catch (IOException e) {
-            System.out.println("Error load edit_pane pane.");
-        }*/
-
-        /*try {
-            FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("../../../graphical/panes/bookmark_pane.fxml"));
-            anchorBookmarkPane = fxmlLoader.load();
-            bookmarkPaneController = fxmlLoader.getController();
-            bookmarkPaneController.initData(this);
-        } catch (IOException e) {
-            System.out.println("Error load bookmark_pane pane.");
-        }*/
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
@@ -124,7 +102,27 @@ public class MainController implements Initializable{
             historyController = fxmlLoader.getController();
             //historyController.initData(this);
         } catch (IOException e) {
-            System.out.println("Error load history_pane pane.");
+            System.out.println("Error: Cannot load historyPane!");
+        }
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../../../interface/Bookmark.fxml"));
+            bookmarkPane = fxmlLoader.load();
+            bookmarkController = fxmlLoader.getController();
+            //historyController.initData(this);
+        } catch (IOException e) {
+            System.out.println("Error: Cannot load bookmarkPane!");
+        }
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../../../interface/Setting.fxml"));
+            settingPane = fxmlLoader.load();
+            settingController = fxmlLoader.getController();
+            //historyController.initData(this);
+        } catch (IOException e) {
+            System.out.println("Error: Cannot load settingPane!");
         }
 
         this.showSearchPane();

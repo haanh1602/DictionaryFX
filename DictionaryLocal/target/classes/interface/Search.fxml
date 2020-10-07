@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="720.0" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SearchController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SearchController">
     <children>
       <TextField fx:id="word_target" alignment="TOP_LEFT" layoutX="34.0" layoutY="84.0" prefHeight="58.0" prefWidth="340.0" styleClass="input_search">
          <font>
@@ -15,7 +15,7 @@
                 <Font size="24.0" />
             </font>
         </Button>
-        <Label fx:id="word_explain" layoutX="34.0" layoutY="169.0" prefHeight="58.0" prefWidth="340.0">
+        <Label fx:id="word_explain" layoutX="34.0" layoutY="169.0" prefHeight="58.0" prefWidth="340.0" style="-fx-background-color: white;">
             <font>
                 <Font size="24.0" />
             </font>

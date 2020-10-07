@@ -36,6 +36,7 @@ public class SearchController implements Initializable {
 
     private static String translate(String langFrom, String langTo, String text) throws IOException {
         // INSERT YOU URL HERE
+        if(text.trim().isEmpty()) return "";
         String urlStr =
                 "https://script.google.com/macros/s/AKfycbyz2XsrX8yPv5KSegyJbZVYghrJWTD5bx0BfSn6ZJEsZyX2VNNg/exec" +
                         "?q=" + URLEncoder.encode(text, "UTF-8") +
