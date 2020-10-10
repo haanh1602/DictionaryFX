@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.BookmarkController">
     <children>
         <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="307.0" />
-        <AnchorPane id="white_area" layoutX="314.0" layoutY="10.0" prefHeight="387.0" prefWidth="400.0" />
+        <AnchorPane id="white_area" fx:id="explainArea" layoutX="314.0" layoutY="10.0" prefHeight="387.0" prefWidth="400.0" />
     </children>
 </AnchorPane>

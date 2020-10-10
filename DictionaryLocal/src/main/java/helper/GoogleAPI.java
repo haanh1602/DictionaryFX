@@ -1,4 +1,4 @@
-package services;
+package helper;
 
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
@@ -33,12 +33,13 @@ public class GoogleAPI {
     }
 
     public static String translate(String sourceLanguage, String targetLanguage, String text) throws IOException {
+        if(text.trim().equals("")) return "";
         String url = generateTranslateURL(sourceLanguage, targetLanguage, text);
         String result = SendRequest.sendGET(url);
         try {
             return translateToHTML.parserHTML(result);
         } catch (ParseException e) {
-            System.out.println("[ERROR]: Error TranslateToHTML.");
+            e.printStackTrace();
         }
 
         return null;
@@ -58,7 +59,7 @@ public class GoogleAPI {
         try {
             return searchToHTML.parserHTML(result);
         } catch (ParseException e) {
-            System.out.println("[ERROR]: Error SearchToHTML.");
+            e.printStackTrace();
         }
 
         return new ArrayList<>();
