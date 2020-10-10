@@ -1,4 +1,4 @@
 package app.controller.panes;
 
-public class SettingController {
+public class SettingController extends ContentController {
 }

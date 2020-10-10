@@ -1,7 +1,6 @@
 package app.dictionary;
 
-public class DictionaryCommandline {
-    public Dictionary dictionary;
+public class DictionaryCommandline extends Dictionary{
     private static int noLength = 8;
     private static int engLength = 31;
 
@@ -21,28 +20,24 @@ public class DictionaryCommandline {
         return res;
     }
 
-    DictionaryCommandline(Dictionary dictionary) {
-        this.dictionary = dictionary;
-    }
-
     public void showAllWords() {
         System.out.println("No      " + "| " + "English                        " + "| " + "Vietnamese" + "\n"
                 + "--------" + "|-" + "-------------------------------" + "|-" + "--------------");
-        for (int i = 0; i < dictionary.numOfWord; i++) {
+        for (int i = 0; i < numOfWord; i++) {
             System.out.println(i + 1 + no_length(i + 1)
-                    + "| " + dictionary.words[i].getWord_target() + eng_length(dictionary.words[i].getWord_target())
-                    + "| " + dictionary.words[i].getWord_explain());
+                    + "| " + words[i].getWord_target() + eng_length(words[i].getWord_target())
+                    + "| " + words[i].getWord_explain());
         }
     }
 
     public void dictionaryBasic() {
-        dictionary.dictionaryManagement.insertFromCommandline();
+        super.dictionaryManagement.insertFromCommandline();
         showAllWords();
     }
 
     public void dictionaryAdvance() {
-        dictionary.dictionaryManagement.insertFromFile();
+        super.dictionaryManagement.insertFromFile();
         showAllWords();
-        dictionary.dictionaryManagement.dictionaryLookup("");
+        super.dictionaryManagement.dictionaryLookup("");
     }
 }
