@@ -29,62 +29,34 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/HistoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/Dictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryCommandline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/helper/IODictionaries.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/helper/IOHTML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/helper/SortWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/helper/Speaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/GoogleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/SearchToHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/SearchToHTML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/SendRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/TranslateToHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/TranslateToHTML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/icons/BookMarkIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/icons/HistoryIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/icons/SearchIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/icons/SettingIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/icons/dog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Bookmark.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/SendRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/TranslateToHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/TranslateToHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/ExplainAnchor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/ExplainAnchor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/interface/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/History.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/MainController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/MainController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Pane.psd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Pane.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/icons/dog.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/panes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/BookmarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/BookmarkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/HistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/HistoryController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/SearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/SettingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/SettingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/Dictionary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryCommandline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryCommandline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/helper/IODictionaries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/helper/IOHTML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/helper/SortWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/helper/Speaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/icons/BookMarkIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/icons/HistoryIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/icons/SearchIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/icons/SettingIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/icons/dog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/Bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Bookmark.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/TranslateToHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/TranslateToHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/ExplainAnchor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/ExplainAnchor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/interface/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/History.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/MainController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/MainController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/Pane.psd" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Pane.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/icons/dog.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/panes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/GoogleAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/SearchToHTML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/SendRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/TranslateToHTML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/handle_translate_content.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +288,12 @@
       <workItem from="1602263733724" duration="607000" />
       <workItem from="1602303348535" duration="5545000" />
       <workItem from="1602328422163" duration="9425000" />
-      <workItem from="1602350941761" duration="47000" />
+      <workItem from="1602350941761" duration="163000" />
+      <workItem from="1602385992667" duration="11213000" />
+      <workItem from="1602428890967" duration="5293000" />
+      <workItem from="1602474076483" duration="88000" />
+      <workItem from="1602485948852" duration="14452000" />
+      <workItem from="1602518508853" duration="3915000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -396,10 +373,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289880136" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1602229937846">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1602505451988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602229937846" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602505451988" />
     <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601994729244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -416,22 +393,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602350864998">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602522514727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602350864998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602350864998">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602522514727" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602522514726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602350864998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602350864997">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602522514726" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602522514726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602350864997" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602350864998">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602522514726" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602522514727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602350864998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602522514727" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602251553371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -484,6 +461,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1601872276081" />
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1602408915749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1602408915749" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1602146299597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

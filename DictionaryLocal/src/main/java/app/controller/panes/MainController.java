@@ -1,12 +1,10 @@
 package app.controller.panes;
 
-import app.dictionary.Dictionary;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
 import javafx.scene.effect.Bloom;
 import javafx.scene.layout.AnchorPane;
 
@@ -123,6 +121,7 @@ public class MainController implements Initializable{
             fxmlLoader.setLocation(getClass().getResource("../../../interface/Bookmark.fxml"));
             bookmarkPane = fxmlLoader.load();
             bookmarkController = fxmlLoader.getController();
+
         } catch (IOException e) {
             System.out.println("Error: Cannot load bookmarkPane!");
         }
