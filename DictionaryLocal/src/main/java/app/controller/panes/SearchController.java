@@ -3,11 +3,9 @@ package app.controller.panes;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ListView;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import helper.GoogleAPI;
-import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
@@ -57,15 +55,8 @@ public class SearchController extends ContentController implements Initializable
         getListViewSearch();
     }
 
-    public void translate_fixed() throws IOException {
-        //String explainWord = translate("en", "vi", word_target.getText());
-        String explainWord = GoogleAPI.translate("en", "vi", word_target.getText());
-        explainWord = rightMargin(explainWord, 23);
-        word_explain.setText(explainWord);
-    }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        initExplainArea();
     }
 }

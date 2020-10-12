@@ -3,10 +3,16 @@ package app.dictionary;
 import java.io.*;
 import java.util.Scanner;
 
-public class DictionaryManagement extends Dictionary{
+public class DictionaryManagement {
+    protected Dictionary dictionary;
+
     Scanner sc = new Scanner(System.in);
     public String inputFileName = "input.txt";
     public String outputFileName = "input.txt";
+
+    public DictionaryManagement(Dictionary dictionary) {
+        this.dictionary = dictionary;
+    }
 
     public void insertFromCommandline() {
         Word word = new Word();
@@ -14,7 +20,8 @@ public class DictionaryManagement extends Dictionary{
         word.setWord_target(sc.nextLine());
         System.out.print("Word explain: ");
         word.setWord_explain(sc.nextLine());
-        words[numOfWord++] = word;
+        dictionary.words.add(word);
+        dictionary.numOfWord++;
         dictionaryExportToFile();
     }
 
@@ -22,9 +29,19 @@ public class DictionaryManagement extends Dictionary{
         return new File("").getAbsolutePath() + "/src/main/resources/data/" + file;
     }
 
+
+
+    public void getFile(String inputFileName, String outputFileName) {
+        this.inputFileName = inputFileName;
+        this.outputFileName = outputFileName;
+    }
+
+    public void getFile(String fileName) {
+        this.getFile(fileName, fileName);
+    }
+
     public void insertFromFile() {
         try {
-            //String f = new File("").getAbsolutePath() + "/src/main/resources/data/input.txt";
             FileReader fr = new FileReader(filePath(inputFileName));
             BufferedReader br = new BufferedReader(fr);
             String line;
@@ -37,27 +54,25 @@ public class DictionaryManagement extends Dictionary{
                     if (word.length > 1) {
                         input.setWord_explain(word[1]);
                     }
-                    //Word input = new Word(line.split("\\t")[0], line.split("\\t")[1]);
-                    words[numOfWord++] = input;
+                    dictionary.words.add(input);
+                    dictionary.numOfWord++;
                 }
             }
             fr.close();
             br.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            //System.out.println(String.valueOf(getClass().getResourceAsStream("/sample/input.txt")));
         }
     }
 
     public void dictionaryExportToFile() {
         try {
-            //String f = new File("").getAbsolutePath() + "/src/main/resources/data/input.txt";
             FileWriter fw = new FileWriter(filePath(outputFileName));
             BufferedWriter bw = new BufferedWriter(fw);
             int count = 0;
-            while(count < numOfWord) {
-                bw.write(words[count].getWord_target()
-                        + "\t" + words[count++].getWord_explain() + "\n");
+            while(count < dictionary.numOfWord) {
+                bw.write(dictionary.words.get(count).getWord_target()
+                        + "\t" + dictionary.words.get(count++).getWord_explain() + "\n");
             }
             fw.close();
             bw.close();
@@ -68,23 +83,20 @@ public class DictionaryManagement extends Dictionary{
 
     public Word dictionaryLookup(String wordLookup) {
         wordLookup = wordLookup.toLowerCase().trim();
-        for (int i = 0; i < numOfWord; i++) {
-            if (wordLookup.equals(words[i].getWord_target())) {
-                return words[i];
+        for (int i = 0; i < dictionary.numOfWord; i++) {
+            if (wordLookup.equals(dictionary.words.get(i).getWord_target())) {
+                return dictionary.words.get(i);
             }
         }
         return null;
     }
 
     public void deleteWord(String word) {
-        for(int i = 0; i < numOfWord; i++) {
-            if(word.equals(words[i].getWord_target())) {
-                for(int j = i; j < numOfWord - 1; j++) {
-                    words[j] = words[j + 1];
-                }
-                words[numOfWord] = null;
-                numOfWord--;
-                dictionaryManagement.dictionaryExportToFile();
+        for(int i = 0; i < dictionary.numOfWord; i++) {
+            if(word.equals(dictionary.words.get(i).getWord_target())) {
+                dictionary.words.remove(i);
+                dictionary.numOfWord--;
+                dictionary.dictionaryManagement.dictionaryExportToFile();
                 return;
             }
         }
@@ -94,13 +106,13 @@ public class DictionaryManagement extends Dictionary{
     public void editWord() {
         System.out.print("Edit word: ");
         String word = sc.nextLine();
-        for(int i = 0; i < numOfWord; i++) {
-            if(word.equals(words[i].getWord_target())) {
+        for(int i = 0; i < dictionary.numOfWord; i++) {
+            if(word.equals(dictionary.words.get(i).getWord_target())) {
                 System.out.print("Repair word target: ");
-                words[i].setWord_target(sc.nextLine());
+                dictionary.words.get(i).setWord_target(sc.nextLine());
                 System.out.print("Repair word explain: ");
-                words[i].setWord_explain(sc.nextLine());
-                dictionaryManagement.dictionaryExportToFile();
+                dictionary.words.get(i).setWord_explain(sc.nextLine());
+                dictionary.dictionaryManagement.dictionaryExportToFile();
                 return;
             }
         }
