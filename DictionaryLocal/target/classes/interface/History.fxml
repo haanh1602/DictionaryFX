@@ -1,23 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.HistoryController">
+<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.HistoryController">
    <children>
       <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="307.0">
          <children>
-            <Label layoutX="7.0" layoutY="2.0" prefHeight="18.0" prefWidth="88.0" text="History" textFill="WHITE">
+            <TextField fx:id="word_target" layoutX="7.0" layoutY="30.0" onKeyReleased="#SearchTyping" prefHeight="37.0" prefWidth="243.0" styleClass="input_search">
+               <effect>
+                  <Bloom threshold="0.95" />
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button id="searchButton" fx:id="translateBt" layoutX="250.0" layoutY="30.0" mnemonicParsing="false" onAction="#Translate" prefHeight="44.0" prefWidth="50.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView id="#searchButton" fitHeight="33.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../data/icons/SearchButtonIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Button>
+            <ListView fx:id="search_list" layoutX="7.0" layoutY="87.0" onMouseClicked="#SelectItemListView" prefHeight="296.0" prefWidth="293.0" styleClass="list_view" />
+            <Label layoutX="7.0" layoutY="2.0" prefHeight="18.0" prefWidth="88.0" text="History">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
                <effect>
-                  <DropShadow />
+                  <DropShadow color="#cdcdcd" />
                </effect>
             </Label>
-            <TextField fx:id="word_target" layoutX="14.0" layoutY="63.0" prefHeight="26.0" prefWidth="279.0" />
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="78.0" layoutY="7.0" onMouseClicked="#resetHistory" pickOnBounds="true" preserveRatio="true" styleClass="bloom">
+               <image>
+                  <Image url="@../data/icons/ResetIcon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
          </children></AnchorPane>
       <AnchorPane id="white_area" fx:id="explainArea" layoutX="314.0" layoutY="10.0" prefHeight="387.0" prefWidth="400.0" />
    </children>

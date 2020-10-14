@@ -15,24 +15,12 @@ import java.util.ResourceBundle;
 public class SearchController extends ContentController implements Initializable {
 
     @FXML
-    public void SpeakEn(MouseEvent event) {
-        String spelling = word_target.getText().trim();
-        speakEn(spelling);
-    }
-
-    @FXML
-    public void SpeakVi(MouseEvent event) {
-        String spelling = word_explain.getText().trim();
-        speakVi(spelling);
-    }
-
-    @FXML
     public void SearchTyping(KeyEvent event) throws IOException {
         getListViewSearch();
     }
 
     public void getListViewSearch() {
-        resetListViewWords(search_list);
+        resetListViewWords();
         ArrayList<String> listView_words;
         if (!word_target.getText().trim().equals("")) {
             try {
@@ -47,11 +35,13 @@ public class SearchController extends ContentController implements Initializable
     @FXML
     public void Translate(ActionEvent event) throws IOException {
         translate_fixed();
+        addHistory();
     }
 
     @FXML
     public void SelectItemListView(MouseEvent event) {
         selectItemListView(event);
+        addHistory();
         getListViewSearch();
     }
 

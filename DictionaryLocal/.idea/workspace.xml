@@ -26,8 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Big Update Graphical and API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/helper/wordComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/icons/ResetIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/icons/marked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/icons/notMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/icons/ResetIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/icons/marked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/icons/notMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/helper/wordComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" afterDir="false" />
@@ -35,14 +43,18 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryCommandline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/SendRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/TranslateToHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/TranslateToHTML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/GoogleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/History.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Bookmark.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/interface/ExplainAnchor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/ExplainAnchor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/interface/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/History.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Pane.psd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Pane.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Search.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/panes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/webView_refer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DictionaryLocal.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/BookmarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/BookmarkController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" afterDir="false" />
@@ -50,13 +62,18 @@
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/SearchController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/Dictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryCommandline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryCommandline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/DictionaryManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/TranslateToHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/TranslateToHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/dictionary/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dictionary/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/History.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/GoogleAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/GoogleAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/Bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Bookmark.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/interface/ExplainAnchor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/ExplainAnchor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/interface/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/History.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/handle_translate_content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/Pane.psd" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Pane.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Search.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/panes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/webView_refer.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +84,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,8 +118,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="translate" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\resources\data\icons" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\java" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\sprites\icons" />
+      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\translate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\resources\interface" />
@@ -111,12 +132,11 @@
       <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal" />
       <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\resources\data\icons" />
-      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src" />
-      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\main\java" />
-      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\sprites\icons" />
-      <recent name="C:\Users\an\IdeaProjects\DictionaryRepo\DictionaryLocal\src\translate" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="helper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="translate" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
@@ -293,7 +313,15 @@
       <workItem from="1602428890967" duration="5293000" />
       <workItem from="1602474076483" duration="88000" />
       <workItem from="1602485948852" duration="14452000" />
-      <workItem from="1602518508853" duration="3915000" />
+      <workItem from="1602518508853" duration="5643000" />
+      <workItem from="1602556794854" duration="5499000" />
+      <workItem from="1602572643010" duration="287000" />
+      <workItem from="1602574484629" duration="7097000" />
+      <workItem from="1602646900794" duration="4246000" />
+      <workItem from="1602672892981" duration="1414000" />
+      <workItem from="1602679910854" duration="2698000" />
+      <workItem from="1602693221323" duration="5723000" />
+      <workItem from="1602700814014" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -373,10 +401,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601289880136" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1602505451988">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1602576493514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602505451988" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602576493514" />
     <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601994729244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -393,38 +421,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602522514727">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602700891438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602522514727" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602522514726">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602700891438" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602700891438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602522514726" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602522514726">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602700891438" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602700891438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602522514726" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602522514727">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602700891438" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602700891438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602522514727" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602251553371">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602700891438" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602251553371" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1602251553371">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602581755163" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602251553371" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1602251553371">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602581755163" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602251553371" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1602251553371">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602581755163" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602251553371" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602581755163" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601994230965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -437,10 +465,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602067777318" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602066867946">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602522643965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602066867946" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602522643965" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601289670712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -457,6 +485,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601395946029" />
+    <state x="502" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602522678271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1602522678271" />
     <state x="209" y="73" key="new project wizard" timestamp="1601872276081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -469,9 +501,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602146299597" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602066293545">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602648671068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602066293545" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602648671068" />
   </component>
 </project>

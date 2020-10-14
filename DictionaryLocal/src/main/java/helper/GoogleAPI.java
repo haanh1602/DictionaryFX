@@ -65,10 +65,6 @@ public class GoogleAPI {
         return new ArrayList<>();
     }
 
-    public static void speak(String text) throws IOException {
-        speak("en", text);
-    }
-
     public static void speak(String language, String text) throws IOException {
         String url = generateSpeakURL(language, text);
 

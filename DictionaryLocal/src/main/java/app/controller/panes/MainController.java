@@ -10,6 +10,7 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class MainController implements Initializable{
@@ -53,6 +54,7 @@ public class MainController implements Initializable{
 
     public void showSearchPane() {
         this.setPane(searchPane);
+        searchController.resetData();
         this.resetStyleBtNav();
         this.resetEffect();
         searchBt.setEffect(bloom);
@@ -60,6 +62,8 @@ public class MainController implements Initializable{
     }
     public void showHistoryPane() {
         this.setPane(historyPane);
+        historyController.resetData();
+        historyController.initListView();
         this.resetStyleBtNav();
         this.resetEffect();
         historyBt.setEffect(bloom);
@@ -67,6 +71,8 @@ public class MainController implements Initializable{
     }
     public void showBookmarkPane() {
         this.setPane(bookmarkPane);
+        bookmarkController.resetData();
+        bookmarkController.initListView();
         this.resetStyleBtNav();
         this.resetEffect();
         bookmarkBt.setEffect(bloom);
