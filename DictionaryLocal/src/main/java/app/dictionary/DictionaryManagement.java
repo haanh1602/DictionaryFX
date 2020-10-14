@@ -1,6 +1,10 @@
 package app.dictionary;
 
+import helper.wordComparator;
+
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DictionaryManagement {
@@ -25,11 +29,22 @@ public class DictionaryManagement {
         dictionaryExportToFile();
     }
 
+    public void addWordToFile(String word_target, String word_explain, String pronounce) {
+        Word word = new Word(word_target, word_explain, pronounce);
+        dictionary.words.add(word);
+        dictionary.words = sortWords(dictionary.words);
+        dictionary.numOfWord++;
+        dictionaryExportToFile();
+    }
+
+    public ArrayList sortWords(ArrayList<Word> words) {
+        Collections.sort(words, new wordComparator());
+        return words;
+    }
+
     public String filePath(String file) {
         return new File("").getAbsolutePath() + "/src/main/resources/data/" + file;
     }
-
-
 
     public void getFile(String inputFileName, String outputFileName) {
         this.inputFileName = inputFileName;
@@ -49,10 +64,12 @@ public class DictionaryManagement {
                 line = line.trim();
                 if(!line.equals("")) {
                     String[] word = line.split("\\t");
-                    Word input = new Word();
-                    input.setWord_target(word[0]);
+                    Word input = new Word(word[0], "null", "null");
                     if (word.length > 1) {
                         input.setWord_explain(word[1]);
+                        if(word.length > 2) {
+                            input.setPronounce(word[2]);
+                        }
                     }
                     dictionary.words.add(input);
                     dictionary.numOfWord++;
@@ -61,6 +78,7 @@ public class DictionaryManagement {
             fr.close();
             br.close();
         } catch (Exception e) {
+            System.out.println("Cannot insertFromFile!");
             System.out.println(e.getMessage());
         }
     }
@@ -72,11 +90,13 @@ public class DictionaryManagement {
             int count = 0;
             while(count < dictionary.numOfWord) {
                 bw.write(dictionary.words.get(count).getWord_target()
-                        + "\t" + dictionary.words.get(count++).getWord_explain() + "\n");
+                        + "\t" + dictionary.words.get(count).getWord_explain()
+                        + "\t" + dictionary.words.get(count++).getPronounce() + "\n");
             }
-            fw.close();
             bw.close();
+            fw.close();
         } catch (Exception e) {
+            System.out.println("Cannot exportToFile");
             System.out.println(e.getMessage());
         }
     }
@@ -112,6 +132,8 @@ public class DictionaryManagement {
                 dictionary.words.get(i).setWord_target(sc.nextLine());
                 System.out.print("Repair word explain: ");
                 dictionary.words.get(i).setWord_explain(sc.nextLine());
+                System.out.print("Repair pronounce: ");
+                dictionary.words.get(i).setPronounce(sc.nextLine());
                 dictionary.dictionaryManagement.dictionaryExportToFile();
                 return;
             }
