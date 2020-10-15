@@ -1,3 +1,7 @@
-confirm	xác nhận	 /kənˈfərm/
-halo	hào quang	 /ˈhālō/
+alpha	alpha	  /ˈalfə/
+an	một	 /an/
+apple	táo	 /ˈapəl/
+explore	khám phá	 /ikˈsplôr/
 hello	xin chào	 /həˈlō/
+hello dear customer sorry	xin chào khách hàng thân yêu xin lỗi	  /null/
+hellu	hellu	  /null/

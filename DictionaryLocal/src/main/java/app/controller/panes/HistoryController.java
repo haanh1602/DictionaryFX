@@ -14,33 +14,22 @@ import java.util.ResourceBundle;
 
 public class HistoryController extends ContentController implements Initializable {
 
+    private String fileName = "History.txt";
+
     @FXML
     public void SearchTyping(KeyEvent event) throws IOException {
-        getListViewSearch();
-    }
-
-    public void getListViewSearch() {
-        resetListViewWords();
-        ArrayList<String> listView_words;
-        if (!word_target.getText().trim().equals("")) {
-            try {
-                listView_words = sortList(GoogleAPI.search(word_target.getText()));
-                search_list.getItems().addAll(listView_words);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+        getListViewSearchFromFile(fileName);
     }
 
     @FXML
     public void Translate(ActionEvent event) throws IOException {
-        resetListViewWords();
+        translate_fixed();
     }
 
     @FXML
     public void SelectItemListView(MouseEvent event) {
         selectItemListView(event);
-        getListViewSearch();
+        getListViewSearchFromFile(fileName);
     }
 
     @FXML
