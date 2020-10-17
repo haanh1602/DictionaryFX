@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+gone	Không còn	  /ɡôn/
+=======
 alpha	alpha	  /ˈalfə/
 an	một	 /an/
 apple	táo	 /ˈapəl/
@@ -5,3 +8,4 @@ explore	khám phá	 /ikˈsplôr/
 hello	xin chào	 /həˈlō/
 hello dear customer sorry	xin chào khách hàng thân yêu xin lỗi	  /null/
 hellu	hellu	  /null/
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570

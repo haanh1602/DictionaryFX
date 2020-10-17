@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+gone	Không còn	  /ɡôn/
+=======
 a	một	 /ā/
 alpha	alpha	  /ˈalfə/
 an	một	 /an/
@@ -9,3 +12,4 @@ hellu	hellu	  /null/
 hi	Chào	  /hī/
 thabg cutoe	cutoe thabg	  /null/
 train	xe lửa	 /trān/
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570
