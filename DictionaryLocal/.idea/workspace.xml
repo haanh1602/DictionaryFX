@@ -28,7 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Big Update Graphical and API" />
+    <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Big Update Graphical and API">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../New folder/DictionaryFX/DictionaryLocal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -379,26 +381,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="298" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1601737083519" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601993216641">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602924007084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602922928450">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602924007084" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602923590586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602922928450" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602922928449">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602923590586" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602923590586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602922928449" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602922928449">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602923590586" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602923590585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602922928449" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602922928450">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602923590585" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602923590586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602922928450" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602923590586" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
