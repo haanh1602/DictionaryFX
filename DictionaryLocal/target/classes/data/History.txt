@@ -1,19 +1,7 @@
-a	một	 /ā/
 <<<<<<< HEAD
-bim	bim	  /null/
-confirm	xác nhận	 /kənˈfərm/
-cornfim	cornfim	  /null/
-dog	chó	 /dôɡ/
-doge	vị tổng trấn	 /dōj/
-doggy	Cho dại	 /ˈdôɡē/
-explore	khám phá	 /ikˈsplôr/
-gain	thu được	 /ɡān/
-general	chung	 /ˈjen(ə)rəl/
-go	đi	 /ɡō/
-halo	hào quang	 /ˈhālō/
-happy	vui mừng	 /ˈhapē/
-hello	xin chào	 /həˈlō/
+gone	Không còn	  /ɡôn/
 =======
+a	một	 /ā/
 alpha	alpha	  /ˈalfə/
 an	một	 /an/
 anh	anh	  /null/
@@ -21,7 +9,7 @@ apple	táo	 /ˈapəl/
 apply	ứng dụng	 /əˈplī/
 haahah	haahah	  /null/
 hellu	hellu	  /null/
->>>>>>> 4709381ed5732fcca15e3865608566f0e6306570
 hi	Chào	  /hī/
 thabg cutoe	cutoe thabg	  /null/
 train	xe lửa	 /trān/
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570

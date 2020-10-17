@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-dog	chó	 /dôɡ/
+gone	Không còn	  /ɡôn/
 =======
 alpha	alpha	  /ˈalfə/
 an	một	 /an/

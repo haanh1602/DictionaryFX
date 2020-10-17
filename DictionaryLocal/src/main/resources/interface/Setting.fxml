@@ -22,11 +22,12 @@
             <Button layoutX="26.0" layoutY="163.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" styleClass="button_nav" text="DELETE" textFill="WHITE" />
             <Button layoutX="26.0" layoutY="276.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="EDIT" />
             <Label layoutX="450.0" layoutY="8.0" prefHeight="371.0" prefWidth="251.0" styleClass="input_search" />
-            <Label layoutX="506.0" layoutY="24.0" text="Thong bao" textFill="WHITE">
+            <Label layoutX="506.0" layoutY="24.0" text="Notification" textFill="WHITE">
                <font>
                   <Font size="29.0" />
                </font>
             </Label>
+            <Label layoutX="482.0" layoutY="184.0" prefHeight="21.0" prefWidth="187.0" text="Notification will showed here" textFill="WHITE" />
          </children></AnchorPane>
    </children>
 </AnchorPane>
