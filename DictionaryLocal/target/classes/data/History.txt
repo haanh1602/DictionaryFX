@@ -1,7 +1,10 @@
+a	một	 /ā/
 bim	bim	  /null/
 confirm	xác nhận	 /kənˈfərm/
 cornfim	cornfim	  /null/
 dog	chó	 /dôɡ/
+doge	vị tổng trấn	 /dōj/
+doggy	Cho dại	 /ˈdôɡē/
 explore	khám phá	 /ikˈsplôr/
 gain	thu được	 /ɡān/
 general	chung	 /ˈjen(ə)rəl/
