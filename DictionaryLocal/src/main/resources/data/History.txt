@@ -1,16 +1,11 @@
 a	một	 /ā/
-bim	bim	  /null/
-confirm	xác nhận	 /kənˈfərm/
-cornfim	cornfim	  /null/
-dog	chó	 /dôɡ/
-explore	khám phá	 /ikˈsplôr/
-gain	thu được	 /ɡān/
-general	chung	 /ˈjen(ə)rəl/
-go	đi	 /ɡō/
-halo	hào quang	 /ˈhālō/
-happy	vui mừng	 /ˈhapē/
-hello	xin chào	 /həˈlō/
+alpha	alpha	  /ˈalfə/
+an	một	 /an/
+anh	anh	  /null/
+apple	táo	 /ˈapəl/
+apply	ứng dụng	 /əˈplī/
+haahah	haahah	  /null/
+hellu	hellu	  /null/
 hi	Chào	  /hī/
-high	cao	 /hī/
-search	Tìm kiếm	 /sərCH/
-search b mp3 downloads	tìm kiếm b tải mp3	  /null/
+thabg cutoe	cutoe thabg	  /null/
+train	xe lửa	 /trān/

@@ -3,22 +3,15 @@ package app.controller.panes;
 import app.dictionary.Dictionary;
 import app.dictionary.Word;
 import helper.GoogleAPI;
-import helper.wordComparator;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
-import java.awt.*;
 import java.io.*;
-import java.net.URL;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.ResourceBundle;
 
-public class ExplainAnchorController implements Initializable {
+public class ExplainAnchorController {
     @FXML
     private Label word_explain;
     @FXML
@@ -164,10 +157,5 @@ public class ExplainAnchorController implements Initializable {
         this.word_explain.setText("");
         this.pronounce.setText("");
         this.setNotMark();
-    }
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
     }
 }
