@@ -1,9 +1,7 @@
 package app.controller.panes;
 
 import app.dictionary.Dictionary;
-import app.dictionary.Word;
 import helper.GoogleAPI;
-import helper.wordComparator;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ListView;
@@ -53,6 +51,25 @@ public class ContentController {
         String explainWord = result[0];
         String pronounce = result[1];
         explainAnchorController.loadData(word_target.getText(), explainWord, pronounce);
+    }
+
+    public void getListViewSearchFromFile(String fileName) {
+        resetListViewWords();
+        resetDictionary(fileName);
+        dictionary.dictionaryManagement.insertFromFile();
+        ArrayList<String> listView = new ArrayList<>();
+        int i;
+        for(i = 0; i < dictionary.numOfWord; i++) {
+            if(dictionary.words.get(i).getWord_target().trim().startsWith(word_target.getText().trim())) {
+                break;
+            }
+        }
+        for(int j = i; j < dictionary.numOfWord; j++) {
+            if(dictionary.words.get(j).getWord_target().trim().startsWith(word_target.getText().trim())) {
+                listView.add(dictionary.words.get(j).getWord_target().trim());
+            } else break;
+        }
+        search_list.getItems().addAll(listView);
     }
 
     public ArrayList sortList(ArrayList<String> arrayList) {

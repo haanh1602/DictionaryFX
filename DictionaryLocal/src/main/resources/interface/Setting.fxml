@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
+=======
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>

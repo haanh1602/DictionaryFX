@@ -30,6 +30,23 @@
   <component name="ChangeListManager">
     <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="Big Update Graphical and API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/BookmarkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ExplainAnchorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/Bookmark.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/History.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ContentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/ExplainAnchorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/HistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/HistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/History.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" afterDir="false" />
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,6 +303,10 @@
       <workItem from="1602679910854" duration="2698000" />
       <workItem from="1602693221323" duration="5723000" />
       <workItem from="1602700814014" duration="78000" />
+      <workItem from="1602701197153" duration="150000" />
+      <workItem from="1602742028670" duration="58000" />
+      <workItem from="1602742107305" duration="7287000" />
+      <workItem from="1602771312776" duration="1853000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -384,6 +405,7 @@
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602924007084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602924007084" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602923590586">
       <screen x="0" y="0" width="1536" height="824" />
@@ -401,6 +423,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602923590586" />
+=======
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602773170486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602773170486" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602773170486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602773170486" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602773170486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602773170486" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602773170486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602773170486" />
+>>>>>>> 4709381ed5732fcca15e3865608566f0e6306570
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
