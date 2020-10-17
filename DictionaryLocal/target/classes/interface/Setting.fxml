@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
+<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
    <children>
       <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="709.0">
          <children>
             <AnchorPane layoutX="129.0" layoutY="8.0" prefHeight="371.0" prefWidth="321.0" styleClass="button_pane_color">
                <children>
-                  <TextField layoutX="52.0" layoutY="53.0" text="word_target" />
-                  <TextField layoutX="52.0" layoutY="152.0" text="word_exlain" />
-                  <TextField layoutX="52.0" layoutY="236.0" text="pronounce" />
+                  <TextField layoutX="52.0" layoutY="53.0" styleClass="input_search" text="word_target" />
+                  <TextField layoutX="52.0" layoutY="152.0" styleClass="input_search" text="word_exlain" />
+                  <TextField layoutX="52.0" layoutY="236.0" styleClass="input_search" text="pronounce" />
                   <Button fx:id="acceptBt" layoutX="121.0" layoutY="296.0" mnemonicParsing="false" text="Accept" />
                </children>
             </AnchorPane>

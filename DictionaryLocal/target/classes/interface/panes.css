@@ -40,6 +40,19 @@
 
 .input_search:focused {
     -fx-border-color: white;
+    -fx-effect: dropshadow(three-pass-box, white,10.0, 0.4, 0, 0);
+}
+
+.input_setting {
+    -fx-background-color: rgba(253,255,255,0.99);
+    -fx-border-color: #5a626b;
+    -fx-border-radius: 2px;
+    -fx-text-fill: white;
+    -fx-border-width: 3px;
+}
+
+.input_setting:focused {
+    -fx-border-color: white;
 }
 
 .list_view {
