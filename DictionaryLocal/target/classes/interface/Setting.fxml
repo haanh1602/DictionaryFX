@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
+<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
    <children>
       <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="709.0">
          <children>
             <AnchorPane layoutX="129.0" layoutY="8.0" prefHeight="371.0" prefWidth="321.0" styleClass="button_pane_color">
                <children>
-                  <TextField layoutX="52.0" layoutY="53.0" styleClass="input_search" text="word_target" />
-                  <TextField layoutX="52.0" layoutY="152.0" styleClass="input_search" text="word_exlain" />
-                  <TextField layoutX="52.0" layoutY="236.0" styleClass="input_search" text="pronounce" />
+                  <TextField fx:id="word_target" layoutX="52.0" layoutY="53.0" styleClass="input_search" text="word_target" />
+                  <TextField fx:id="word_explain" layoutX="52.0" layoutY="152.0" styleClass="input_search" text="word_explain" />
+                  <TextField fx:id="pronounce" layoutX="52.0" layoutY="236.0" styleClass="input_search" text="pronounce" />
                   <Button fx:id="acceptBt" layoutX="121.0" layoutY="296.0" mnemonicParsing="false" text="Accept" />
                </children>
             </AnchorPane>
-            <Button layoutX="26.0" layoutY="45.0" mnemonicParsing="false" text="ADD" />
-            <Button layoutX="26.0" layoutY="163.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" styleClass="button_nav" text="DELETE" textFill="WHITE" />
-            <Button layoutX="26.0" layoutY="276.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="EDIT" />
+            <Button layoutX="26.0" layoutY="45.0" mnemonicParsing="false" onAction="#ADD" styleClass="input_search" text="ADD" textFill="WHITE" />
+            <Button layoutX="18.0" layoutY="163.0" mnemonicParsing="false" onAction="#DELETE" prefHeight="31.0" prefWidth="75.0" styleClass="input_search" text="DELETE" textFill="WHITE" />
+            <Button layoutX="26.0" layoutY="276.0" mnemonicParsing="false" onAction="#EDIT" prefHeight="31.0" prefWidth="58.0" styleClass="input_search" text="EDIT" textFill="WHITE" />
             <Label layoutX="450.0" layoutY="8.0" prefHeight="371.0" prefWidth="251.0" styleClass="input_search" />
             <Label layoutX="506.0" layoutY="24.0" text="Notification" textFill="WHITE">
                <font>
                   <Font size="29.0" />
                </font>
             </Label>
-            <Label layoutX="482.0" layoutY="184.0" prefHeight="21.0" prefWidth="187.0" text="Notification will showed here" textFill="WHITE" />
+            <TextField fx:id="notification" alignment="CENTER" layoutX="485.0" layoutY="182.0" styleClass="input_search" />
          </children></AnchorPane>
    </children>
 </AnchorPane>

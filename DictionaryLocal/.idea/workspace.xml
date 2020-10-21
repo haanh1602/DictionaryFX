@@ -23,19 +23,19 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:update-processing" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/History.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/panes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/History.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/panes.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../New folder/DictionaryFX/DictionaryLocal" />
+    <property name="last_opened_file_path" value="$USER_HOME$/New folder/DictionaryFX/DictionaryLocal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -191,7 +191,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -350,7 +350,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="update-processing" />
                       </list>
                     </value>
                   </entry>
@@ -372,6 +372,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="236" key="#Notifications" timestamp="1603078604055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1603078604055" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1602071568967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -404,22 +408,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602929621192">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603296235211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602929621192" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602929621192">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603296235211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602929621192" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602929621192">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603296235210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602929621192" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602929621192">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603296235210" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603296235211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602929621192" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -468,10 +472,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1601742019835" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602929564227">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603270032731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602929564227" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603270032731" />
     <state x="502" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602522678271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
