@@ -20,10 +20,32 @@
     -fx-effect: dropshadow(three-pass-box, whitesmoke,10.0, 0.4, 0, 0);
 }
 
+.setting_bt_nav {
+    -fx-text-fill: black;
+}
+
+.setting_bt_nav:focused {
+    -fx-text-fill: whitesmoke;
+    -fx-effect: dropshadow(three-pass-box, whitesmoke,10.0, 0.4, 0, 0);
+    -fx-underline: true;
+}
+
+.setting_input {
+    -fx-background-color: #2a3039;
+    -fx-text-fill: white;
+}
+
 .button_pane_color {
     -fx-background-color: #424a53;
     -fx-border-width: 0px;
     -fx-border-radius: 2px;
+}
+
+.notification {
+    -fx-background-color: #424a53;
+    -fx-border-width: 0px;
+    -fx-border-radius: 2px;
+    -fx-text-fill: white;
 }
 
 .bloom:pressed {

@@ -29,13 +29,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839127f1-09b5-41d5-95a6-e2f5ba9490fb" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_8_0_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DictionaryLocal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/panes/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dictionary/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/Bookmark.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/History.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/Setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interface/panes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/panes/SettingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/panes/SettingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Bookmark.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/History.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/History.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/Setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interface/panes.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interface/panes.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -191,7 +201,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -297,6 +307,18 @@
       <workItem from="1602742107305" duration="7287000" />
       <workItem from="1602771312776" duration="1853000" />
       <workItem from="1602928557968" duration="1075000" />
+      <workItem from="1603346636698" duration="6000" />
+      <workItem from="1603346927314" duration="287000" />
+      <workItem from="1603347236431" duration="1551000" />
+      <workItem from="1603349947339" duration="27000" />
+      <workItem from="1603350018289" duration="3901000" />
+      <workItem from="1603354168370" duration="2259000" />
+      <workItem from="1603362021968" duration="357000" />
+      <workItem from="1603362972990" duration="2556000" />
+      <workItem from="1603367289817" duration="719000" />
+      <workItem from="1603368640120" duration="1717000" />
+      <workItem from="1603370913773" duration="1795000" />
+      <workItem from="1603372791603" duration="9068000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Connect graphics and process&quot;">
       <created>1601372447101</created>
@@ -408,22 +430,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601993216641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603296235211">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603382446207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603296235211">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603382446207" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603382446207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603296235210">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603382446207" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603382446207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603296235210" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603296235211">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603382446207" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603382446207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603296235211" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603382446207" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602581755163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -472,10 +494,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1601742019835" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603270032731">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603347586169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603270032731" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603347586169" />
     <state x="502" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602522678271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

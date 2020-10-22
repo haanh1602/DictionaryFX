@@ -111,6 +111,16 @@ public class DictionaryManagement {
         return null;
     }
 
+    public int dictionaryLookupIndex(String wordLookup) {
+        wordLookup = wordLookup.toLowerCase().trim();
+        for (int i = 0; i < dictionary.numOfWord; i++) {
+            if (wordLookup.equals(dictionary.words.get(i).getWord_target())) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public void deleteWord(String word) {
         for(int i = 0; i < dictionary.numOfWord; i++) {
             if(word.equals(dictionary.words.get(i).getWord_target())) {
@@ -121,6 +131,18 @@ public class DictionaryManagement {
             }
         }
         System.out.println("Cannot found: " + word);
+    }
+
+    public boolean deleteWord_FX(String word) {
+        for(int i = 0; i < dictionary.numOfWord; i++) {
+            if(word.equals(dictionary.words.get(i).getWord_target())) {
+                dictionary.words.remove(i);
+                dictionary.numOfWord--;
+                dictionary.dictionaryManagement.dictionaryExportToFile();
+                return true;
+            }
+        }
+        return false;
     }
 
     public void editWord() {
@@ -139,6 +161,19 @@ public class DictionaryManagement {
             }
         }
         System.out.println("Cannot found: " + word);
+    }
+
+    public boolean editWord(String wordBeEdited, Word word) {
+        for(int i = 0; i < dictionary.numOfWord; i++) {
+            if(wordBeEdited.equals(dictionary.words.get(i).getWord_target())) {
+                dictionary.words.get(i).setWord_target(word.word_target);
+                dictionary.words.get(i).setWord_explain(word.word_explain);
+                dictionary.words.get(i).setPronounce(word.pronounce);
+                dictionaryExportToFile();
+                return true;
+            }
+        }
+        return false;
     }
 
     public void setting() {

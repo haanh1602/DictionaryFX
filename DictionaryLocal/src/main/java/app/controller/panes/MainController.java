@@ -80,6 +80,9 @@ public class MainController implements Initializable{
     }
     public void showSettingPane() {
         this.setPane(settingPane);
+        settingController.resetButtons();
+        settingController.get_list_view();
+        settingController.setButtonOn(settingController.addBt);
         this.resetEffect();
         this.resetStyleBtNav();
         settingBt.setEffect(bloom);

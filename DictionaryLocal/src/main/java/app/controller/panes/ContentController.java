@@ -1,6 +1,7 @@
 package app.controller.panes;
 
 import app.dictionary.Dictionary;
+import app.dictionary.Word;
 import helper.GoogleAPI;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -42,7 +43,17 @@ public class ContentController {
         }
     }
 
+    public boolean translate_my_dictionary() {
+        Dictionary myDictionary = new Dictionary("MyDictionary.txt");
+        myDictionary.dictionaryManagement.insertFromFile();
+        Word result = myDictionary.dictionaryManagement.dictionaryLookup(word_target.getText());
+        if(result == null) return false;
+        explainAnchorController.loadData(result.getWord_target(), result.getWord_explain(), result.getPronounce());
+        return true;
+    }
+
     public void translate_fixed() throws IOException {
+        if(translate_my_dictionary()) return;
         String[] result = GoogleAPI.translate("en", "vi", word_target.getText()).split("\n");
         if(result.length < 2) {
             explainAnchorController.reset();
