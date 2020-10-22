@@ -11,9 +11,9 @@
    <children>
       <AnchorPane prefHeight="73.0" prefWidth="720.0" style="-fx-background-color: #2a3039;" styleClass="header_pane" stylesheets="@panes.css">
          <children>
-            <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="648.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@icons/dog.gif" />
+                  <Image url="@../data/icons/SummonedBeast.gif" />
                </image>
                <effect>
                   <Bloom />
@@ -29,16 +29,13 @@
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="button_nav">
                      <image>
-                        <Image url="@../data/icons/SearchIcon.png" />
+                        <Image url="@../data/icons/SearchTabIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
                <font>
                   <Font size="1.0" />
                </font>
-               <effect>
-                  <Bloom />
-               </effect>
             </Button>
             <Button fx:id="historyBt" layoutX="120.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
                <cursor>
@@ -50,13 +47,10 @@
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../data/icons/HistoryIcon.png" />
+                        <Image url="@../data/icons/HistoryTabIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
-               <effect>
-                  <Bloom />
-               </effect>
             </Button>
             <Button fx:id="bookmarkBt" layoutX="240.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
                <cursor>
@@ -68,13 +62,10 @@
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../data/icons/BookMarkIcon.png" />
+                        <Image url="@../data/icons/BookMarkTabIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
-               <effect>
-                  <Bloom />
-               </effect>
             </Button>
             <Button fx:id="settingBt" layoutX="360.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="72.0" prefWidth="120.0" styleClass="button_nav">
                <cursor>
@@ -86,13 +77,10 @@
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../data/icons/SettingIcon.png" />
+                        <Image url="@../data/icons/SettingTabIcon.png" />
                      </image>
                   </ImageView>
                </graphic>
-               <effect>
-                  <Bloom />
-               </effect>
             </Button>
          </children>
       </AnchorPane>

@@ -1,9 +1,14 @@
 package app.dictionary;
 
 public class DictionaryCommandline {
-    public Dictionary dictionary;
+    protected Dictionary dictionary;
+
     private static int noLength = 8;
     private static int engLength = 31;
+
+    public DictionaryCommandline(Dictionary dictionary) {
+        this.dictionary = dictionary;
+    }
 
     private  String no_length(int n) {
         String res = "";
@@ -21,17 +26,13 @@ public class DictionaryCommandline {
         return res;
     }
 
-    DictionaryCommandline(Dictionary dictionary) {
-        this.dictionary = dictionary;
-    }
-
     public void showAllWords() {
         System.out.println("No      " + "| " + "English                        " + "| " + "Vietnamese" + "\n"
                 + "--------" + "|-" + "-------------------------------" + "|-" + "--------------");
         for (int i = 0; i < dictionary.numOfWord; i++) {
             System.out.println(i + 1 + no_length(i + 1)
-                    + "| " + dictionary.words[i].getWord_target() + eng_length(dictionary.words[i].getWord_target())
-                    + "| " + dictionary.words[i].getWord_explain());
+                    + "| " + dictionary.words.get(i).getWord_target() + eng_length(dictionary.words.get(i).getWord_target())
+                    + "| " + dictionary.words.get(i).getWord_explain());
         }
     }
 

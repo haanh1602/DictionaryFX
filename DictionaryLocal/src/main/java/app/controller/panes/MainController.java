@@ -1,44 +1,38 @@
 package app.controller.panes;
 
-import app.dictionary.Dictionary;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Cursor;
-import javafx.scene.ImageCursor;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
+import javafx.scene.effect.Bloom;
 import javafx.scene.layout.AnchorPane;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class MainController implements Initializable{
-
-    Dictionary dictionary = new Dictionary();
 
     @FXML
     private Button searchBt, historyBt, settingBt, bookmarkBt;
     @FXML
     private AnchorPane currentPane;
-    @FXML
+
     private AnchorPane searchPane = null;
-    @FXML
     private AnchorPane bookmarkPane = null;
-    @FXML
     private AnchorPane historyPane = null;
-    @FXML
     private AnchorPane settingPane = null;
+    private AnchorPane explainAnchor = null;
+
+    public Bloom bloom = new Bloom();
 
     private SearchController searchController;
     private HistoryController historyController;
     private BookmarkController bookmarkController;
     private SettingController settingController;
+    private ExplainAnchorController explainAnchorController;
 
     public void setPane(AnchorPane anchorPane) {
         this.currentPane.getChildren().setAll(anchorPane);
@@ -51,35 +45,63 @@ public class MainController implements Initializable{
         settingBt.setStyle(null);
     }
 
+    public void resetEffect() {
+        searchBt.setEffect(null);
+        historyBt.setEffect(null);
+        bookmarkBt.setEffect(null);
+        settingBt.setEffect(null);
+    }
+
     public void showSearchPane() {
         this.setPane(searchPane);
+        searchController.resetData();
+        this.resetStyleBtNav();
+        this.resetEffect();
+        searchBt.setEffect(bloom);
         searchBt.setStyle("-fx-background-color: #424a53");
+    }
+    public void showHistoryPane() {
+        this.setPane(historyPane);
+        historyController.resetData();
+        historyController.initListView();
+        this.resetStyleBtNav();
+        this.resetEffect();
+        historyBt.setEffect(bloom);
+        historyBt.setStyle("-fx-background-color: #424a53");
+    }
+    public void showBookmarkPane() {
+        this.setPane(bookmarkPane);
+        bookmarkController.resetData();
+        bookmarkController.initListView();
+        this.resetStyleBtNav();
+        this.resetEffect();
+        bookmarkBt.setEffect(bloom);
+        bookmarkBt.setStyle("-fx-background-color: #424a53");
+    }
+    public void showSettingPane() {
+        this.setPane(settingPane);
+        settingController.resetButtons();
+        settingController.get_list_view();
+        settingController.setButtonOn(settingController.addBt);
+        this.resetEffect();
+        this.resetStyleBtNav();
+        settingBt.setEffect(bloom);
+        settingBt.setStyle("-fx-background-color: #424a53");
     }
 
     @FXML
-    private void handleMenuButtonAction(ActionEvent event) throws IOException {
-        Parent currentScene = null;
+    private void handleMenuButtonAction(ActionEvent event) {
         if (event.getSource() == searchBt) {
-            //currentScene = FXMLLoader.load(getClass().getResource("../interface/SearchController.fxml"));
-            //mainScene.getStylesheets().add(getClass().getResource("/design/application.css").toExternalForm());
-            this.setPane(searchPane);
-            this.resetStyleBtNav();
-            searchBt.setStyle("-fx-background-color: #424a53");
+            this.showSearchPane();
         }
         else if (event.getSource() == historyBt) {
-            this.setPane(historyPane);
-            this.resetStyleBtNav();
-            historyBt.setStyle("-fx-background-color: #424a53");
+            this.showHistoryPane();
         }
         else if (event.getSource() == bookmarkBt) {
-            this.setPane(bookmarkPane);
-            this.resetStyleBtNav();
-            bookmarkBt.setStyle("-fx-background-color: #424a53");
+            this.showBookmarkPane();
         }
         else if (event.getSource() == settingBt) {
-            this.setPane(settingPane);
-            this.resetStyleBtNav();
-            settingBt.setStyle("-fx-background-color: #424a53");
+            this.showSettingPane();
         }
     }
 
@@ -90,7 +112,6 @@ public class MainController implements Initializable{
             fxmlLoader.setLocation(getClass().getResource("../../../interface/Search.fxml"));
             searchPane = fxmlLoader.load();
             searchController = fxmlLoader.getController();
-            //searchPaneController.initData(this);
         } catch (IOException e) {
             System.out.println("Error: Cannot load searchPane!");
         }
@@ -100,7 +121,6 @@ public class MainController implements Initializable{
             fxmlLoader.setLocation(getClass().getResource("../../../interface/History.fxml"));
             historyPane = fxmlLoader.load();
             historyController = fxmlLoader.getController();
-            //historyController.initData(this);
         } catch (IOException e) {
             System.out.println("Error: Cannot load historyPane!");
         }
@@ -110,7 +130,7 @@ public class MainController implements Initializable{
             fxmlLoader.setLocation(getClass().getResource("../../../interface/Bookmark.fxml"));
             bookmarkPane = fxmlLoader.load();
             bookmarkController = fxmlLoader.getController();
-            //historyController.initData(this);
+
         } catch (IOException e) {
             System.out.println("Error: Cannot load bookmarkPane!");
         }
@@ -120,7 +140,15 @@ public class MainController implements Initializable{
             fxmlLoader.setLocation(getClass().getResource("../../../interface/Setting.fxml"));
             settingPane = fxmlLoader.load();
             settingController = fxmlLoader.getController();
-            //historyController.initData(this);
+        } catch (IOException e) {
+            System.out.println("Error: Cannot load settingPane!");
+        }
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../../../interface/ExplainAnchor.fxml"));
+            explainAnchor = fxmlLoader.load();
+            explainAnchorController = fxmlLoader.getController();
         } catch (IOException e) {
             System.out.println("Error: Cannot load settingPane!");
         }

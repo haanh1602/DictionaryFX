@@ -1,10 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
+<AnchorPane prefHeight="407.0" prefWidth="720.0" styleClass="background_color_pane_focused" stylesheets="@panes.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.panes.SettingController">
    <children>
-      <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="307.0" />
-      <AnchorPane id="white_area" layoutX="314.0" layoutY="10.0" prefHeight="387.0" prefWidth="400.0" />
+      <AnchorPane id="white_area" layoutX="6.0" layoutY="10.0" prefHeight="387.0" prefWidth="709.0">
+         <children>
+            <AnchorPane layoutY="8.0" prefHeight="371.0" prefWidth="129.0">
+               <children>
+                  <JFXButton fx:id="addBt" mnemonicParsing="false" onMouseClicked="#nav" prefHeight="66.0" prefWidth="129.0" text="ADD">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></JFXButton>
+                  <JFXButton fx:id="deleteBt" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#nav" prefHeight="66.0" prefWidth="129.0" text="DELETE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></JFXButton>
+                  <JFXButton fx:id="editBt" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#nav" prefHeight="66.0" prefWidth="129.0" text="EDIT">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></JFXButton>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="129.0" layoutY="8.0" prefHeight="371.0" prefWidth="321.0" styleClass="input_search">
+               <children>
+                  <JFXTextField fx:id="word_target" focusColor="WHITE" layoutX="25.0" layoutY="47.0" prefHeight="43.0" prefWidth="271.0" promptText="Word target..." styleClass="setting_input" unFocusColor="#198d1d">
+                     <font>
+                        <Font size="20.0" />
+                     </font></JFXTextField>
+                  <JFXTextField fx:id="word_explain" focusColor="WHITE" layoutX="25.0" layoutY="131.0" prefHeight="43.0" prefWidth="271.0" promptText="Word explain..." styleClass="setting_input" unFocusColor="#198d1d">
+                     <font>
+                        <Font size="20.0" />
+                     </font></JFXTextField>
+                  <JFXTextField fx:id="pronounce" focusColor="WHITE" layoutX="25.0" layoutY="216.0" prefHeight="43.0" prefWidth="271.0" promptText="Pronounce..." styleClass="setting_input" unFocusColor="#198d1d">
+                     <font>
+                        <Font size="20.0" />
+                     </font></JFXTextField>
+                  <Button fx:id="acceptBt" layoutX="128.0" layoutY="308.0" mnemonicParsing="false" onAction="#process" text="Accept">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label layoutX="26.0" layoutY="28.0" opacity="0.75" text="word target" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="112.0" opacity="0.75" text="word explain" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="197.0" opacity="0.75" text="pronounce" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="450.0" layoutY="8.0" prefHeight="122.0" prefWidth="251.0" styleClass="input_search" />
+            <Label layoutX="514.0" layoutY="14.0" text="Notification" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+            <Label fx:id="notification" layoutX="464.0" layoutY="46.0" prefHeight="66.0" prefWidth="224.0" styleClass="notification">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <ListView fx:id="my_list" layoutX="457.0" layoutY="165.0" prefHeight="213.0" prefWidth="244.0" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="137.0" text="My Dictionary">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
