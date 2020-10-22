@@ -1,3 +1,4 @@
-a	asdf 	 /nh/
+a	a 	 //null//
+b	a 	 //null//
 hello	a 	 /b/
 hi	asdf 	 /nh/
